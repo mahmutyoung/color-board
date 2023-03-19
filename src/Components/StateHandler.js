@@ -2,6 +2,8 @@ import { useState } from "react";
 import ColorSquare from "./ColorSquare";
 import Board from "./Board";
 import MyPalette from "./MyPalette";
+
+
 const StateHandler = () => {
   const [squares, setSquares] = useState(arr);
   const [color, setColor] = useState(null);
